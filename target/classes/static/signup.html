@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+
+            <form class="login-form">
+                <input type="text" placeholder="username" id="username" maxlength="20" />
+                <input type="password" placeholder="password" id="password" maxlength="20" />
+                <input type="text" placeholder="firstname" id="firstname" maxlength="20" />
+                <input type="text" placeholder="lastname" id="lastname" maxlength="20" />
+                <input type="email" placeholder="email" id="email" maxlength="20" />
+                <label for="roles">Choose a role:</label>
+
+                <select name="roles" id="roles">
+                    <option value="employee">employee</option>
+                    <option value="Finance Manager">Finance Manager</option>
+
+                </select>
+
+                <button id="signup">signup</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>homepage</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/landing.html">reimbursement</a>
+                <ul>
+                    <li><a href="/reimbAdd.html">add reimbursements</a></li>
+                    <li><a href="/landing.html">view reimbursements</a></li>
+                </ul>
+            </li>
+            <li><a href="" id="logout">logout</a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <br>
+
+    <h1 id="userdisplay"> </h1>
+    <form id="acceptDeclineForm">
+    </form>
+
+    <h1 id="filterButtons"></h1>
+
+    <section id="reimbTable">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr id="employee">
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="financeManagerTable">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr id="finance">
+
+                </tr>
+            </thead>
+            <tbody id="financeView">
+
+            </tbody>
+        </table>
+    </section>
+
+
+    <script src="js/landing.js"></script>
+    <script src="js/roleChecker.js"></script>
+</body>
+
+</html>

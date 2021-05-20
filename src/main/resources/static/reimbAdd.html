@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reimbAdd.css">
+    <title>add reimbursements</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="/landing.html">reimbursement</a>
+                <ul>
+                    <li><a href="/reimbAdd.html">add reimbursements</a></li>
+                    <li><a href="/landing.html">view reimbursements</a></li>
+                </ul>
+            </li>
+            <li><a href="" id="logout">logout</a></li>
+        </ul>
+    </nav>
+
+    <section class="login-page">
+        <div class="form">
+
+            <form class="login-form">
+
+                <label for="roles">Choose a Type:</label>
+
+                <select name="type" id="type">
+                    <option value="FOOD">FOOD</option>
+                    <option value="LODGING">LODGING</option>
+                    <option value="TRAVEL">TRAVEL</option>
+                    <option value="OTHER">OTHER</option>
+
+                </select>
+                <input type="text" placeholder="amount" id="amount" maxlength="20" />
+                ​<textarea id="txtArea" rows="10" cols="35"></textarea>
+
+                <button id="submit">submit</button>
+
+            </form>
+    </section>
+    </div>
+
+
+
+</body>
+<script src="js/landing.js"></script>
+<script src="js/reimbAdd.js"></script>
+
+</html>
