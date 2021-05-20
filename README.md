@@ -47,8 +47,8 @@ git clone https://github.com/rlee252/Project1_ExpenseReimbursement.git
 ![](./images/javaApplication.PNG)
 
 2. open up your browser and go to http://localhost:7000/
-![](./images/local7000.PNG)
+![](./images/localhost7000.PNG)
 
 ## License
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: <[GNU General Public License](LICENSE)>.
